@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Tags HTML</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+
+    <div>
+        Aqui vai o código HTML que 
+        <b>fará seu</b> <i>site aparecer.</i>
+        <br>
+        <b>
+            <i>
+                Conteudo em Italico
+            </i>
+        </b>
+    </div>
+    <hr>
+    <div>
+        <h1>Este Titulo</h1>
+        <h2>Este Titulo</h2>
+        <h3>Este Titulo</h3>
+        <h4>Este Titulo</h4>
+        <h5>Este Titulo</h5>
+
+        <a 
+            target="_blank"
+            href="http://www.w3schools.com/">
+            Visite as W3Schools!
+        </a>
+   </div>
+
+   <hr>
+
+   <!-- Listagens -->
+   <div>
+       Meus Gostos:
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+            <li>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
+            </li>
+        </ul>
+   </div>
+
+   <!-- Buttons -->
+   <div>
+       <button 
+            type="button"
+            onclick="console.log('Ola');">
+            Clica me
+        </button>
+   </div>
+
+   <hr>
+   <!-- Images -->
+   <div>
+        <img 
+            src="https://s2.glbimg.com/nksCDlmBan7iiSCgJqZdN7A5ekc=/e.glbimg.com/og/ed/f/original/2019/10/22/6th-place_small-white-hair-spider_javier-ruperez_nikon-small-world.jpg" 
+            alt="Girl in a jacket" 
+            width="200" 
+            height="150">
+   </div>
+
+   <hr>
+
+   <!-- Label -->
+   <div>
+        <label 
+            for="username">
+            Username
+        </label>
+        <input 
+            type="text" 
+            name="username" 
+            id="username" 
+        >
+
+        <br>
+
+        <label 
+            for="password">
+            Password
+        </label>
+        <input 
+            type="password" 
+            name="password" 
+            id="password" 
+        >
+
+        <br>
+
+        <label 
+            for="idade">
+            Idade
+        </label>
+        <input 
+            type="number" 
+            name="idade" 
+            id="idade" 
+        >
+
+        <hr>
+
+        <input
+            type="checkbox" 
+            id="vehicle1" 
+            name="vehicle1">
+        <label 
+            for="vehicle1"> 
+            I have a bike
+        </label>
+        <br>
+        <input
+            type="checkbox" 
+            id="vehicle1" 
+            name="vehicle1">
+        <label
+             for="vehicle1"> 
+            I have a Moto
+        </label>
+
+        <hr>
+
+        <input 
+            type="radio" 
+            id="male" 
+            name="gender">
+  
+        <label 
+            for="male">
+            Masculino
+        </label>
+
+        <br>
+
+        <input 
+            type="radio" 
+            id="male" 
+            name="gender">
+        <label 
+            for="male">
+            Feminino
+        </label>
+
+        <hr>
+
+        <label 
+            for="birthday">
+            Birthday:
+        </label>
+        <input 
+            type="date" 
+            id="birthday" 
+            name="birthday"
+            max="2021-12-31"
+            min="2021-01-31"
+        >
+
+        <label for="appt">Time:</label>
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+
+        <hr>
+
+        <label for="cars">Choose a car:</label>
+        <select multiple name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <hr>
+
+        <label for="w3review">Review of W3Schools:</label>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+             Coloque a descrição.
+        </textarea>
+   </div>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
