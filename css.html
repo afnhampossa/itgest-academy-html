@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      .my-h1-by-class {
+        color: rgb(199, 152, 81);
+        text-align: center;
+        font-size: 80px;
+        background-color: lightblue;
+        font-family: cursive;
+      }
+
+      #my-h2-by-id {
+        color: blue;
+      }
+      #my-h3-by-id {
+        border: 2px solid tomato; 
+        border-radius: 10pt;
+        text-align: center;
+      }
+      .side-by-side {
+        display: flex;
+      }
+      .test {
+        margin: auto;
+        width: 200px;
+        height: 100px;
+        background-color: rebeccapurple;
+      }
+      .side-by-side h1{
+        color: teal;
+        /* width: 50%; */
+        width: -webkit-fill-available;
+        text-align: center;
+        border-radius: 15px;
+      }
+      table,td, th {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      td:last-child{
+        text-align: right;
+      }
+      body {
+        background-color: white;
+      }
+      @media screen and (max-width:600px){
+        body{
+          background-color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      class="my-h1-by-class"
+      id="my-h1-by-id">
+      Ailton Allen
+    </h1>
+
+    <h1>Filipe Carolino</h1>
+
+    <h2
+      class="my-h2-by-class"
+      id="my-h2-by-id">
+      Nelson Matos
+    </h2>
+    <h3
+      id="my-h3-by-id">
+      Angelino Fernando Nhampossa
+    </h3>
+    <div class="side-by-side">
+      <h1 
+        style="border: 2px solid tomato; ">
+        JESUS SALVA
+      </h1>
+      <h1 
+        style="border: 2px solid tomato; ">
+        <i class="fab fa-amilia"></i>
+        JESUS CURA
+      </h1>
+    </div>
+    <div class="test">
+
+    </div>
+
+    <br>
+    <div>
+      <h1>Formandos</h1>
+
+      <table>
+        <tr>
+          <th>Id</th>
+          <th>Nome</th>
+          <th>País</th>
+        </tr>
+  
+        <tr>
+          <td>1</td>
+          <td>Nelson Matos</td>
+          <td rowspan="2">Portugal</td>
+        </tr>
+  
+        <tr>
+          <td>2</td>
+          <td>Filipe Carolino</td>
+        </tr>
+  
+        <tr>
+          <td>3</td>
+          <td>Alicia Pereira</td>
+          <td>Angola</td>
+        </tr>
+  
+        <tr>
+          <td>4</td>
+          <td>Eutico Setes</td>
+          <td>Israel</td>
+        </tr>
+      </table>
+  
+      <br><br>
+  
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th colspan="3">Phone</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>john.doe@example.com</td>
+          <td>123-45-678</td>
+          <td>212-00-546</td>
+          <td>212-00-546</td>
+        </tr>
+      </table>
+  
+      <br>
+    </div>
+  </body>
+</html>
